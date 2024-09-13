@@ -7,9 +7,8 @@ public class Calculator {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the first number");
         int num1 = input.nextInt();
-        System.out.println("Please enter the first number");
+        System.out.println("Please enter the second number");
         int num2 = input.nextInt();
-
         System.out.println("Addition of two number is "+ (num1 + num2));
         System.out.println("Multiplication of two number is "+ (num1 * num2));
         System.out.println("Division of two number is "+ (num1 / num2));
