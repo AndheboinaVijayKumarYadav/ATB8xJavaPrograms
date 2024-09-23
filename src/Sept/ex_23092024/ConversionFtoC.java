@@ -22,6 +22,9 @@ public class ConversionFtoC {
                 double f = input.nextDouble();
                 double c = (f-32) * (5.0/9.0);
                 System.out.printf("Coversion from Fahrenheit to celsius of given value %.2f is %.2f celsius",f,c);
+                break;
+            default:
+                System.out.println("Please enter choice either 1 or 2");
         }
     }
 }
