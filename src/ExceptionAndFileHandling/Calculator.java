@@ -22,6 +22,18 @@ public class Calculator {
             System.out.println(e);
         }
 
+        // we can use | in catch instead of writing multiple catches
+        try{
+            int result = num1/num2;
+            System.out.printf("Division of two numbers %d/%d is %d",num1,num2,result);
+        }
+        catch (ArithmeticException | ArrayIndexOutOfBoundsException e){
+            System.out.println("Divide by Zero is not possible");
+        }
+        catch (Exception e){
+            System.out.println(e);
+        }
+
 
 
     }
